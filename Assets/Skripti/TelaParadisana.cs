@@ -32,12 +32,12 @@ public class TelaParadisana : MonoBehaviour
     }
     public void mainitIzmerus() {
         float pasreizejaVertiba = slaideris.GetComponent<Slider>().value;
-        mainigaisAttels.transform.localScale = new Vector3(1F * pasreizejaVertiba, 1F * pasreizejaVertiba, 1);
+        mainigaisAttels.transform.localScale = new Vector3(1F*pasreizejaVertiba, 1, 1);
     }
     public void mainitIzmerus2()
     {
-        float pasreizejaVertiba = slaideris.GetComponent<Slider>().value;
-        mainigaisAttels.transform.localScale = new Vector3(1F * pasreizejaVertiba, 1F * pasreizejaVertiba, 1);
+        float pasreizejaVertiba = slaideris2.GetComponent<Slider>().value;
+        mainigaisAttels.transform.localScale = new Vector3(1, 1F*pasreizejaVertiba, 1);
     }
 }
         
